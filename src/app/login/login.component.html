@@ -1,0 +1,23 @@
+<md-grid-list cols="1" rowHeight="400px">
+  <md-grid-tile>
+    <md-card [style.width.px]="300">
+      <md-card-title>Login</md-card-title>
+      <form>
+        <md-card-content>
+          <md-input-container style="display:block;">
+            <input mdInput placeholder="Login">
+            <md-error>Hello</md-error>
+          </md-input-container>
+          <md-input-container style="display:block;">
+            <input mdInput type="password" placeholder="Password">
+            <md-error>Hello</md-error>
+          </md-input-container>
+
+        </md-card-content>
+        <md-card-actions align="end" style="margin-left: 0; margin-right: 0; margin-bottom: 0;">
+          <button md-raised-button color="primary">Login</button>
+        </md-card-actions>
+      </form>
+    </md-card>
+  </md-grid-tile>
+</md-grid-list>
